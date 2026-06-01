@@ -1,0 +1,731 @@
+ COMPLETE ASSESSMENT SYSTEM FOR MODULES 1-3 
+ 
+--- 
+ 
+ PART 1: MODULE ASSESSMENTS (5 points each) 
+ Must score 4/5 to unlock next module 
+ 
+--- 
+ MODULE 1: Introduction to HTML 
+ 
+ 5-Point Assessment 
+ 
+Question 1 (Coding - 1 point) 
+What is the correct HTML code to create a basic HTML document structure? 
+ 
+A) <html><body>Hello</body></html> 
+B) <!DOCTYPE html><html><head></head><body>Hello</body></html> 
+C) <html><head></head>Hello</html> 
+D) <!DOCTYPE>Hello</html> 
+ 
+Correct Answer: B 
+ 
+Question 2 (Coding - 1 point) 
+Look at this code. What will display in the browser tab? 
+ 
+html 
+<html> 
+<head> 
+<title>My Website</title> 
+</head> 
+<body> 
+<h1>Welcome</h1> 
+</body> 
+</html> 
+ 
+A) Welcome 
+B) My Website 
+C) Welcome - My Website 
+D) Nothing displays 
+ 
+Correct Answer: B 
+ 
+ 
+ 
+Question 3 (Coding - 1 point) 
+Which HTML tag contains all VISIBLE content of a webpage? 
+ 
+A) <head> 
+B) <html> 
+C) <body> 
+D) <title> 
+ 
+Correct Answer: C 
+ 
+  
+Question 4 (Coding - 1 point) 
+You saved a file as "mywebpage.html". What happens when you double-click it? 
+ 
+A) Opens in code editor 
+B) Opens in web browser 
+C) Asks what program to use 
+D) Nothing, it's not a program 
+ 
+Correct Answer: B--- 
+  
+ 
+Question 5 (Theory - 1 point) 
+What does HTML stand for? 
+ 
+A) Hyper Text Markup Language 
+B) Home Tool Markup Language 
+C) Hyperlinks Text Mark Language 
+D) High Tech Modern Language``` 
+ 
+Correct Answer: A 
+  
+ MODULE 2: HTML Basics 
+ 
+ 5-Point Assessment 
+ 
+Question 1 (Coding - 1 point) 
+Which is the CORRECT way to create a paragraph? 
+ 
+```html 
+A) <para>Hello World</para> 
+B) <p>Hello World</p> 
+C) <paragraph>Hello World</paragraph> 
+D) <pg>Hello World</pg>``` 
+ 
+Correct Answer: B 
+ 
+ --- 
+ 
+Question 2 (Coding - 1 point) 
+Look at this code. What will the output look like? 
+ 
+```html 
+<body> 
+<h1>Shop</h1> 
+<p>Open today</p> 
+<br> 
+<p>Come visit us</p> 
+</body>``` 
+``` 
+A) Shop (large) / Open today / (blank line) / Come visit us 
+B) Shop (large) / Open today Come visit us (same line) 
+C) Shop / Open today / Come visit us (all same size) 
+D) Shop Open today Come visit us (no spaces) 
+``` 
+Correct Answer: A 
+---   
+ 
+Question 3 (Coding - 1 point) 
+Which code creates a level 2 heading that says "Lessons"? 
+``` 
+A) <h1>Lessons</h1> 
+B) <h2>Lessons</h2> 
+C) <h3>Lessons</h3> 
+D) <heading2>Lessons</heading2> 
+``` 
+Correct Answer: B 
+--- 
+  
+ 
+Question 4 (Coding - 1 point) 
+What does the `<!DOCTYPE html>` declaration do? 
+ 
+``` 
+A) Creates a heading 
+B) Tells the browser this is HTML5 document 
+C) Adds a title to the page 
+D) Creates a paragraph``` 
+ 
+Correct Answer: B--- 
+  
+ 
+Question 5 (Coding - 1 point) 
+Which code creates a horizontal line (thematic break)? 
+ 
+``` 
+A) <line> 
+B) <hr> 
+C) <br> 
+D) <break> 
+``` 
+Correct Answer: B--- 
+  
+ 
+ Answer Key - Module 2 
+| Q | Answer | 
+|----|--------| 
+| 1 | B | 
+| 2 | A | 
+| 3 | B | 
+| 4 | B | 
+| 5 | B | 
+ 
+Passing Score: 4/5 
+--- 
+  
+ 
+ MODULE 3: Text and Formatting 
+ 
+ 5-Point Assessment 
+ 
+Question 1 (Coding - 1 point) 
+Which code makes text BOLD with semantic meaning (screen readers emphasize)? 
+ 
+``` 
+A) <b>Important</b> 
+B) <bold>Important</bold> 
+C) <strong>Important</strong> 
+D) <bld>Important</bld> 
+``` 
+ 
+Correct Answer: C 
+ 
+ --- 
+ 
+ 
+ 
+Question 2 (Coding - 1 point) 
+What will this code display? 
+ 
+```html 
+<p>Today is <del>Monday</del> <ins>Tuesday</ins>.</p> 
+``` 
+``` 
+ 
+A) Today is Monday Tuesday. 
+B) Today is ~~Monday~~ Tuesday. 
+C) Today is Monday (crossed out) Tuesday (underlined) 
+D) Today is Monday Tuesday (both underlined) 
+``` 
+ 
+Correct Answer: C 
+--- 
+ 
+ 
+Question 3 (Coding - 1 point) 
+Which code displays water formula H₂O correctly? 
+ 
+``` 
+A) H<sub>2</sub>O 
+B) H<sup>2</sup>O 
+C) H<low>2</low>O 
+D) H<small>2</small>O 
+``` 
+ 
+Correct Answer: A 
+--- 
+ 
+ 
+Question 4 (Coding - 1 point) 
+What color and size will this text be? 
+ 
+```html 
+<p style="color:green; font-size:24px;">Hello</p>``` 
+ 
+ 
+``` 
+A) Green text, normal size 
+B) Black text, large size 
+C) Green text, large size 
+D) Green text, red background 
+``` 
+ 
+Correct Answer: C--- 
+ 
+ 
+ 
+Question 5 (Coding - 1 point) 
+Which tag creates a HIGHLIGHTED (yellow background) effect? 
+ 
+``` 
+A) <highlight> 
+B) <yellow> 
+C) <mark> 
+D) <bg> 
+``` 
+ 
+Correct Answer: C 
+ 
+ 
+ 
+ Answer Key - Module 3 
+| Q | Answer | 
+|----|--------| 
+| 1 | C | 
+| 2 | C | 
+| 3 | A | 
+| 4 | C | 
+| 5 | C | 
+ 
+Passing Score: 4/5 
+--- 
+ 
+ 
+ PART 2: LONG QUIZ (30 points) 
+ After completing Modules 1-3 
+ Passing Score: 25/30 
+ 80% Coding Questions (24 questions) | 20% Theory (6 questions) 
+ Questions are RANDOMIZED each attempt--- 
+ 
+ 
+ 
+ LONG QUIZ QUESTION BANK 
+ (System randomly selects 30 questions) 
+--- 
+ 
+ 
+ CODING QUESTIONS (24 total for bank) 
+ 
+CQ1 
+What is the correct HTML structure? 
+ 
+```html 
+A) <html><head></head><body></body></html> 
+B) <head><html><body></body></html></head> 
+C) <body><html><head></head></html></body> 
+D) <html><body></body><head></head></html> 
+``` 
+ 
+Correct Answer: A--- 
+ 
+ 
+ 
+CQ2 
+Write the code that correctly displays "Hello World" as a paragraph. 
+ 
+``` 
+A) <para>Hello World</para> 
+B) <p>Hello World</p> 
+C) <text>Hello World</text> 
+D) <h1>Hello World</h1> 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ3 
+What will this code display? 
+ 
+```html 
+<h1>Title</h1> 
+<p>Content</p> 
+``` 
+ 
+``` 
+A) Title (small) / Content (large) 
+B) Title (large) / Content (normal) 
+C) Title and Content (both normal) 
+D) Title and Content (both large) 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ4 
+Which tag is used for the MAIN heading (most important)? 
+ 
+``` 
+A) <h6> 
+B) <head> 
+C) <h1> 
+D) <header> 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ5 
+What is the correct code for a line break? 
+ 
+``` 
+A) <br> 
+B) <lb> 
+C) <break> 
+D) <newline> 
+``` 
+ 
+Correct Answer: A 
+ 
+--- 
+ 
+CQ6 
+Which tag creates BOLD text (visual only, no semantic meaning)? 
+ 
+``` 
+A) <strong> 
+B) <b> 
+C) <bold> 
+D) <em> 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ7 
+Which tag creates ITALIC text with emphasis for screen readers? 
+ 
+``` 
+A) <i> 
+B) <italic> 
+C) <em> 
+D) <slanted> 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ8 
+What will this code display? 
+ 
+```html 
+<p style="color:red;">Stop</p> 
+``` 
+ 
+``` 
+A) Blue text saying "Stop" 
+B) Red text saying "Stop" 
+C) Green text saying "Stop" 
+D) Black text saying "Stop" 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ9 
+Which code centers text? 
+ 
+```html 
+A) <p style="align:center;">Text</p> 
+B) <p style="text-align:center;">Text</p> 
+C) <p center>Text</p> 
+D) <p align="center">Text</p> 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ10 
+Which code displays E = mc² (squared) correctly? 
+ 
+``` 
+A) E = mc<sub>2</sub> 
+B) E = mc<up>2</up> 
+C) E = mc<sup>2</sup> 
+D) E = mc^2 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ11 
+What will this code display? 
+ 
+```html 
+<p>Hello <mark>World</mark></p> 
+``` 
+ 
+``` 
+A) Hello World (normal) 
+B) Hello World (with World highlighted yellow) 
+C) Hello World (bold) 
+D) Hello World (italic) 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ12 
+Which code creates a small text? 
+ 
+``` 
+A) <tiny>small</tiny> 
+B) <small>small</small> 
+C) <mini>small</mini> 
+D) <size="small">small</size> 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ13 
+Look at this code. What is wrong? 
+ 
+```html 
+<html> 
+<body> 
+<title>My Page</title> 
+<h1>Welcome</h1> 
+</body> 
+</html> 
+``` 
+ 
+``` 
+A) Missing <head> tag for <title> 
+B) <h1> should be inside <head> 
+C) <body> is misspelled 
+D) Nothing is wrong 
+``` 
+ 
+Correct Answer: A 
+ 
+--- 
+ 
+CQ14 
+Which code creates a comment in HTML? 
+ 
+``` 
+A) // This is a comment 
+B)  This is a comment 
+C) / This is a comment / 
+D) <!-- This is a comment --> 
+``` 
+ 
+Correct Answer: D 
+ 
+--- 
+ 
+CQ15 
+What will this code display? 
+ 
+```html 
+<h2 style="font-size:50px;">Big Text</h2> 
+``` 
+ 
+``` 
+A) Normal heading size 
+B) Extra large heading (50 pixels) 
+C) Small heading 
+D) No text displays 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ16 
+Which tag pair is CORRECT for subscript? 
+ 
+``` 
+A) <down>text</down> 
+B) <sub>text</sub> 
+C) <sup>text</sup> 
+D) <low>text</low> 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ17 
+What is the correct way to save an HTML file? 
+ 
+``` 
+A) document.txt 
+B) page.doc 
+C) index.html 
+D) home.exe 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ18 
+Which attribute adds styling to an element? 
+ 
+``` 
+A) class 
+B) style 
+C) css 
+D) font 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ19 
+What will this code display? 
+ 
+```html 
+<p>Price: <del>$100</del> <ins>$80</ins></p> 
+``` 
+ 
+``` 
+A) Price: $100 $80 
+B) Price: ~~$100~~ $80 (with strike and underline) 
+C) Price: $80 only 
+D) Price: $100 only 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ20 
+Which code creates the largest heading? 
+ 
+``` 
+A) <h1>Title</h1> 
+B) <h2>Title</h2> 
+C) <h6>Title</h6> 
+D) <heading>Title</heading> 
+``` 
+ 
+Correct Answer: A 
+ 
+--- 
+ 
+CQ21 
+What is the correct HTML for a paragraph with blue text? 
+ 
+```html 
+A) <p style="blue">Text</p> 
+B) <p color="blue">Text</p> 
+C) <p style="color:blue;">Text</p> 
+D) <p font="blue">Text</p> 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ22 
+Which tag is used for a short inline quotation (adds quotes automatically)? 
+ 
+``` 
+A) <quote> 
+B) <blockquote> 
+C) <q> 
+D) <cite> 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+CQ23 
+What will this code display? 
+ 
+```html 
+<body bgcolor="yellow"> 
+<h1>Hello</h1> 
+</body> 
+``` 
+ 
+``` 
+A) White page with "Hello" 
+B) Yellow page with "Hello" 
+C) Black page with "Hello" 
+D) Error message 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+CQ24 
+Which code creates emphasized text (usually italic)? 
+ 
+``` 
+A) <strong> 
+B) <b> 
+C) <mark> 
+D) <em> 
+``` 
+ 
+Correct Answer: D 
+ 
+--- 
+ 
+ THEORY QUESTIONS (6 total for bank) 
+ 
+TQ1 
+What does HTML stand for? 
+ 
+``` 
+A) Hyper Text Markup Language 
+B) Home Tool Markup Language 
+C) Hyperlinks Text Mark Language 
+D) High Tech Modern Language 
+``` 
+ 
+Correct Answer: A 
+ 
+--- 
+ 
+TQ2 
+Who invented HTML? 
+ 
+``` 
+A) Bill Gates 
+B) Mark Zuckerberg 
+C) Tim Berners-Lee 
+D) Steve Jobs 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+TQ3 
+What year was HTML5 released? 
+ 
+``` 
+A) 2008 
+B) 2010 
+C) 2014 
+D) 2018 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+TQ4 
+Which tag contains metadata (information about the page)? 
+ 
+``` 
+A) <body> 
+B) <footer> 
+C) <head> 
+D) <main> 
+``` 
+ 
+Correct Answer: C 
+ 
+--- 
+ 
+TQ5 
+What is the correct file extension for an HTML file? 
+ 
+``` 
+A) .txt 
+B) .html 
+C) .doc 
+D) .exe 
+``` 
+ 
+Correct Answer: B 
+ 
+--- 
+ 
+TQ6 
+Which browser is built into Windows? 
+ 
+``` 
+A) Chrome 
+B) Firefox 
+C) Edge 
+D) Safari 
+``` 
+ 
+Correct Answer: C 
+ 
+ 
+ 

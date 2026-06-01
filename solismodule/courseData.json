@@ -1,0 +1,391 @@
+[
+    {
+        "title": "Module 1: Introduction to HTML",
+        "description": "Learn the absolute basics of HTML5, including document structure, key tags, and setting up your development environment.",
+        "order": 1,
+        "lessons": [
+            {
+                "title": "HTML Introduction",
+                "type": "ppt",
+                "order": 1,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMY",
+                        "content": "HTML INTRODUCTION\nUNDERSTANDING THE BASICS"
+                    },
+                    {
+                        "title": "A SIMPLE HTML DOCUMENT",
+                        "content": "<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title<\/title>\n<\/head>\n<body>\n<h1>My First Heading<\/h1>\n<p>My first paragraph.<\/p>\n<\/body>\n<\/html>"
+                    },
+                    {
+                        "title": "WHAT EACH PART MEANS <!DOCTYPE html>  \u2192 Declaration that this",
+                        "content": "is HTML5\n<html>           \u2192 Start of HTML document\n<head>           \u2192 Container for metadata\n<title>          \u2192 Sets the page title\n(browser tab)\n<body>           \u2192 All VISIBLE content\ngoes here\n<h1>             \u2192 Main heading\n<p>              \u2192 Paragraph text"
+                    },
+                    {
+                        "title": "HTML TAGS EXPLAINED",
+                        "content": "HTML tags are keywords surrounded by angle brackets:\n<tag> content <\/tag>\n\u2191       \u2191        \u2191\nStart   Content  End tag\ntag            (closing)\nExamples:\n<h1>Heading<\/h1>\n<p>Paragraph<\/p>\n<img src=\"image.jpg\"> (self-closing)"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<head>\n  <title>My First HTML Page<\/title>\n<\/head>\n<body>\n  <h1>Hello World<\/h1>\n  <p>This is my first paragraph!<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Introduction. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Home Basics",
+                "type": "ppt",
+                "order": 2,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYMODULE 1:",
+                        "content": "INTRODUCTION TO HTML\nHTML HOME"
+                    },
+                    {
+                        "title": "WHAT IS HTML?",
+                        "content": "HTML = Hyper Text Markup Language\n\u2022 Standard language for creating Web pages\n\u2022 Describes the structure of a Web page\n\u2022 Uses elements\/tags to mark content\n\u2022 Not a programming language - it's a markup\nlanguage"
+                    },
+                    {
+                        "title": "HTML DOCUMENT\u200c",
+                        "content": "\u200cSTRUCTURE\nEVERY HTML DOCUMENT HAS THIS BASIC STRUCTURE:\n<!DOCTYPE html>\n<html>\n<head>\n<title>Page Title<\/title>\n<\/head>\n<body>\n<h1>My First Heading<\/h1>\n<p>My first paragraph.<\/p>\n<\/body>\n<\/html>"
+                    },
+                    {
+                        "title": "UNDERSTANDING THE TAGS PURPOSE",
+                        "content": "TAG\n<!DOCTYPE html>\n<html>\n<body>\n<title>\n<head>\nSETS BROWSER TAB TITLE\nCONTAINS VISIBLE CONTENT\nCONTAINS META INFORMATION\nDECLARES HTML5 DOCUMENT TYPE\nROOT ELEMENT OF THE PAGE"
+                    },
+                    {
+                        "title": "HOW BROWSERS DISPLAY HTML",
+                        "content": "1. Browser reads HTML file\n2. Interprets the tags\n3. Renders content on screen\n4. Applies default styling"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>Welcome to HyperEdge<\/h1>\n  <p>HTML is the standard markup language for Web pages.<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Home Basics. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Editors Guide",
+                "type": "ppt",
+                "order": 3,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML EDITORS",
+                        "content": "TOOLS TO WRITE HTML CODE"
+                    },
+                    {
+                        "title": "SIMPLE TEXT EDITORS (FOR\u200c",
+                        "content": "\u200cLEARNING)\nRecommended for beginners:\nWindows: Notepad\nMac: TextEdit\nWhy? It teaches you to write code manually\nNo auto-complete - you learn the syntax!"
+                    },
+                    {
+                        "title": "HOW TO USE NOTEPAD (WINDOWS)",
+                        "content": "Step 1: Open Notepad\n\u2022 Windows 8+: Type \"Notepad\" in Start Screen\n\u2022 Windows 7: Start > Programs > Accessories > Notepad\nStep 2: Write HTML code\nStep 3: Save as \"index.html\"\n\u2022 File > Save As\n\u2022 Name: index.html\n\u2022 Encoding: UTF-8\nStep 4: Open in browser (double-click the file)"
+                    },
+                    {
+                        "title": "HOW TO USE TEXTEDIT (MAC)",
+                        "content": "Step 1: Open TextEdit\n\u2022 Finder > Applications > TextEdit\nStep 2: Change Preferences\n\u2022 Preferences > Format > \"Plain Text\"\nStep 3: Under \"Open and Save\"\n\u2022 Check \"Display HTML files as HTML code\"\nStep 4: Write code and save as .html"
+                    },
+                    {
+                        "title": "PROFESSIONAL HTML EDITORS",
+                        "content": "For serious development:\n\u2022 VS Code (Free, most popular)\n\u2022 Sublime Text\n\u2022 Atom\n\u2022 WebStorm\nFeatures: syntax highlighting, auto-\ncomplete, live preview"
+                    },
+                    {
+                        "title": "W3SCHOOLS ONLINE EDITOR",
+                        "content": "\"Try it Yourself\" Editor\n\u2022 Free online tool\n\u2022 Edit code and see results instantly\n\u2022 No installation needed\n\u2022 Great for testing code fast\nTry it: w3schools.com (Click \"Try it\nYourself\")"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Editor Setup<\/title>\n<\/head>\n<body>\n  <h1>Writing Code in Notepad<\/h1>\n  <p>Write your markup manually without autocomplete to master syntax!<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Editors Guide. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            }
+        ]
+    },
+    {
+        "title": "Module 2: HTML Basics & Structure",
+        "description": "Understand core HTML elements, standard document flows, nesting elements, horizontal rules, line breaks, and common attribute syntax.",
+        "order": 2,
+        "lessons": [
+            {
+                "title": "HTML Basic Document Examples",
+                "type": "ppt",
+                "order": 1,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYMODULE 2: HTML BASICS  HTML BASIC EXAMPLES",
+                        "content": "BUILDING YOUR FIRST WEB PAGE"
+                    },
+                    {
+                        "title": "\u200cHTML DOCUMENTS",
+                        "content": "All HTML documents MUST start with:\n<!DOCTYPE html>\nThen the structure:\n<html>\n<body>\n... visible content ...\n<\/body>\n<\/html>"
+                    },
+                    {
+                        "title": "THE <!DOCTYPE>\u200c",
+                        "content": "\u200cDECLARATION\nPurpose: Tells the browser which HTML version to use\nFor HTML5 (current version):\n<!DOCTYPE html>\nNOT case sensitive\nMust be at the VERY TOP of the page\nAppears only ONCE"
+                    },
+                    {
+                        "title": "HEADINGS IN HTML <h1>Most important heading<\/h1>",
+                        "content": "<h2>Heading 2<\/h2>\n<h3>Heading 3<\/h3>\n<h4>Heading 4<\/h4>\n<h5>Heading 5<\/h5>\n<h6>Least important heading<\/h6>"
+                    },
+                    {
+                        "title": "PARAGRAPHS IN HTML",
+                        "content": "<p>This is a paragraph.<\/p>\n<p>This is another paragraph.<\/p>\nNote: Browsers automatically add blank\nlines before and after paragraphs."
+                    },
+                    {
+                        "title": "HOW TO VIEW HTML SOURCE",
+                        "content": "Method 1: CTRL + U (Windows\/Linux)\nCommand + U (Mac)\nMethod 2: Right-click \u2192 \"View Page Source\"\nMethod 3: Right-click \u2192 \"Inspect\" (see live code)\nGreat way to learn from other websites!"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>Shop is Open<\/h1>\n  <p>Open today<\/p>\n  <hr>\n  <p>Come visit us<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Basic Document Examples. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Elements & Nested Structures",
+                "type": "ppt",
+                "order": 2,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML ELEMENTS  UNDERSTANDING TAGS AND CONTENT",
+                        "content": ""
+                    },
+                    {
+                        "title": "WHAT IS AN HTML ELEMENT?  An HTML element = Start tag + content + End tag",
+                        "content": "< tagname > content < \/tagname >\n\u2191                    \u2191\nStart tag             End tag\nExample:\n<h1>My First Heading<\/h1>\n<p>My first paragraph.<\/p>"
+                    },
+                    {
+                        "title": "NESTED HTML ELEMENTS  Elements can contain other elements:<html>",
+                        "content": "<body>\n<h1>Heading<\/h1>\n<p>Paragraph<\/p>\n<\/body>\n<\/html>\n<html> contains <body>\n<body> contains <h1> and <p>"
+                    },
+                    {
+                        "title": "EMPTY HTML ELEMENTS  Some elements have no content (no end tag needed): <br>  \u2192 Line break",
+                        "content": "<hr>  \u2192 Horizontal line\nThey CAN be written with closing slash:\n<br\/> or <hr\/> (for stricter validation)"
+                    },
+                    {
+                        "title": "WHAT IS AN HTML ELEMENT?  An HTML element = Start tag + content + End tag",
+                        "content": "< tagname > content < \/tagname >\n\u2191                    \u2191\nStart tag             End tag\nExample:\n<h1>My First Heading<\/h1>\n<p>My first paragraph.<\/p>"
+                    },
+                    {
+                        "title": "NESTED HTML ELEMENTS  Elements can contain other elements:<html>",
+                        "content": "<body>\n<h1>Heading<\/h1>\n<p>Paragraph<\/p>\n<\/body>\n<\/html>\n<html> contains <body>\n<body> contains <h1> and <p>"
+                    },
+                    {
+                        "title": "EMPTY HTML ELEMENTS  Some elements have no content (no end tag needed): <br>  \u2192 Line break",
+                        "content": "<hr>  \u2192 Horizontal line\nThey CAN be written with closing slash:\n<br\/> or <hr\/> (for stricter validation)"
+                    },
+                    {
+                        "title": "\u200cCOMMON HTML ELEMENTS REFERENCE  Element                           Description",
+                        "content": "<html>                      Root of HTML document\n<body>                      Visible content\n<h1>-<h6>                   Headings\n<p>                         Paragraph\n<br>                        Line break\n<hr>                        Horizontal rule\nW3Schools HTML Element Reference"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <div>\n    <h1>Nest Elements<\/h1>\n    <p>This paragraph is nested inside a division block.<\/p>\n  <\/div>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Elements & Nested Structures. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Attributes & Metadata",
+                "type": "ppt",
+                "order": 3,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML ATTRIBUTES  ADDING EXTRA INFORMATION TO ELEMENTS",
+                        "content": ""
+                    },
+                    {
+                        "title": "WHAT ARE ATTRIBUTES?  Attributes provide additional information about",
+                        "content": "elements\nSyntax:\n<tag attribute=\"value\">content<\/tag>\nAlways in start tag\nName\/value pairs (name=\"value\")\nUsually lowercase"
+                    },
+                    {
+                        "title": "THE SRC AND ALT ATTRIBUTES\u200c",
+                        "content": "\u200c(IMAGES)  <img src=\"w3schools.jpg\" alt=\"W3Schools Logo\">\n\u2191                    \u2191\nimage source         alternative text\nsrc = file path to image\nalt = description (for screen readers\/broken\nimages)"
+                    },
+                    {
+                        "title": "THE STYLE ATTRIBUTE  <p style=\"color:red;\">Red text<\/p>",
+                        "content": "\u2191\nCSS styling\nChanges appearance: color, size, font, etc."
+                    },
+                    {
+                        "title": "COMMON HTML ATTRIBUTES  Attribute        Used On             Purpose",
+                        "content": "href              <a>           Link destination\nsrc              <img>          Image file path\nalt              <img>          Alternative text\nstyle        Most elements      CSS styling\nclass        Most elements      CSS class reference\nid           Most elements      Unique identifier"
+                    },
+                    {
+                        "title": "ACADEMY END OF THIS MODULE THANK YOU!",
+                        "content": ""
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <h1 style=\"color:blue;\">Styled Header<\/h1>\n  <p title=\"I am a tooltip\">Hover over this paragraph to see the title attribute in action.<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Attributes & Metadata. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            }
+        ]
+    },
+    {
+        "title": "Module 3: Text, Styling & Formatting",
+        "description": "Learn text layout tags (headings, paragraphs), CSS inline style rules, visual text formatting options, quotations, and comments.",
+        "order": 3,
+        "lessons": [
+            {
+                "title": "HTML Headings (h1 to h6)",
+                "type": "ppt",
+                "order": 1,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYMODULE 3: TEXT AND\u200c",
+                        "content": "\u200cFORMATTING  HTML HEADINGS\nORGANIZING CONTENT WITH TITLES"
+                    },
+                    {
+                        "title": "HEADING TAGS",
+                        "content": "<h1>Heading 1<\/h1>  (largest, most\nimportant)\n<h2>Heading 2<\/h2>\n<h3>Heading 3<\/h3>\n<h4>Heading 4<\/h4>\n<h5>Heading 5<\/h5>\n<h6>Heading 6<\/h6>  (smallest)"
+                    },
+                    {
+                        "title": "HEADINGS ARE IMPORTANT!",
+                        "content": "Search engines use headings to index page structure\n\u2705 DO: Use headings to show document hierarchy\n\u274c DON'T: Use headings just to make text big\/bold\nRule: <h1> for main title (ONCE per page)\n<h2> for major sections\n<h3> for sub-sections"
+                    },
+                    {
+                        "title": "CUSTOM HEADING SIZE <h1 style=\"font-size:60px;\">Extra Large",
+                        "content": "Heading<\/h1>\nUse CSS to change heading size\nDefault sizes can be overridden"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <h1>Main Heading<\/h1>\n  <h2>Sub-heading Level 2<\/h2>\n  <h3>Sub-heading Level 3<\/h3>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Headings (h1 to h6). Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Paragraphs & Spacing",
+                "type": "ppt",
+                "order": 2,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML PARAGRAPHS  ADDING TEXT CONTENT",
+                        "content": ""
+                    },
+                    {
+                        "title": "THE <P> ELEMENT",
+                        "content": "<p>This is a paragraph.<\/p>\n<p>This is another paragraph.<\/p>\n\u2022 Always starts on a new line\n\u2022 Browsers add margin before\/after\n\u2022 Block-level element"
+                    },
+                    {
+                        "title": "LINE BREAKS VS PARAGRAPHS",
+                        "content": "Using <br> (line break):\n<p>Line 1<br>Line 2<br>Line 3<\/p>\nResult: Line 1\nLine 2\nLine 3 (no extra space)\n<p> is for separate paragraphs (has spacing)\n<br> is for line breaks inside same paragraph\nSource: Wellesley College W3Schools Summary"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <p style=\"text-align:center;\">Centered paragraph text for design.<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Paragraphs & Spacing. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML CSS Styling Properties",
+                "type": "ppt",
+                "order": 3,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML STYLES  STYLING WITH THE STYLE ATTRIBUTE",
+                        "content": ""
+                    },
+                    {
+                        "title": "THE STYLE ATTRIBUTE",
+                        "content": "Syntax: style=\"property:value;\"\nCommon CSS properties:\ncolor      \u2192 text color\nfont-family \u2192 font type\nfont-size   \u2192 text size\ntext-align  \u2192 alignment"
+                    },
+                    {
+                        "title": "\u200cSTYLE EXAMPLES <p style=\"color:blue;\">Blue text<\/p>",
+                        "content": "<p style=\"font-family:verdana;\">Verdana font<\/p>\n<p style=\"font-size:20px;\">Large text<\/p>\n<p style=\"text-align:center;\">Centered text<\/p>\n<h1 style=\"background-color:yellow;\">Yellow\nbackground<\/h1>"
+                    },
+                    {
+                        "title": "USING MULTIPLE STYLES  <p style=\"color:red; font-size:18px;",
+                        "content": "text-align:center;\">\nRed, large, centered text\n<\/p>\nSeparate styles with semicolons (;)\nMultiple properties can be combined"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <p style=\"color:green; font-size:24px;\">Large green styled paragraph.<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML CSS Styling Properties. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Text Formatting Options",
+                "type": "ppt",
+                "order": 4,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML TEXT FORMATTING  BOLD, ITALIC, AND MORE",
+                        "content": ""
+                    },
+                    {
+                        "title": "FORMATTING ELEMENTS OVERVIEW  Tag                             Effect",
+                        "content": "<b>                      Bold text\n<strong>                 Important (bold)\n<i>                      Italic text\n<em>                     Emphasized (italic)\n<mark>                   Highlighted\n<small>                  Small text\n<del>                    Deleted (strikethrough)\n<ins>                    Inserted (underlined)\n<sub>                    Subscript\n<sup>                    Superscript"
+                    },
+                    {
+                        "title": "BOLD AND STRONG  <b>This text is bold<\/b> (no extra meaning)",
+                        "content": "<strong>This text is important!<\/strong>\n(bold + semantic meaning)\nResult: Both look bold, but <strong> has\nscreen reader emphasis"
+                    },
+                    {
+                        "title": "ITALIC AND EMPHASIZED  <i>This text is italic<\/i> (technical terms,",
+                        "content": "thoughts)\n<em>This text is emphasized<\/em> (verbal stress\nby screen readers)\nResult: Both look italic, but <em> has semantic\nmeaning"
+                    },
+                    {
+                        "title": "MARK, DEL, INS <mark>Highlighted text<\/mark>",
+                        "content": "<del>Deleted text<\/del>  (strikethrough)\n<ins>Inserted text<\/ins>  (underlined)\nExample:\n<p>My favorite color is <del>blue<\/del>\n<ins>red<\/ins>.<\/p>\nResult: My favorite color is ~~blue~~ red."
+                    },
+                    {
+                        "title": "SUBSCRIPT AND\u200c",
+                        "content": "\u200cSUPERSCRIPT  H<sub>2<\/sub>O  \u2192 H\u2082O (water)\nE = mc<sup>2<\/sup>  \u2192 E = mc\u00b2 (exponent)\n\u2022 <sub> = text half character BELOW normal\nline\n\u2022 <sup> = text half character ABOVE normal\nline"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <p>This is <strong>strong bold text<\/strong> and this is <em>emphasized text<\/em>.<\/p>\n  <p>Price: <del>$100<\/del> <ins>$80<\/ins><\/p>\n  <p>Water Formula: H<sub>2<\/sub>O<\/p>\n  <p>Einstein Equation: E = mc<sup>2<\/sup><\/p>\n  <p>This is a <mark>highlighted word<\/mark> in yellow.<\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Text Formatting Options. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Quotations & Citations",
+                "type": "ppt",
+                "order": 5,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML QUOTATIONS  QUOTING TEXT AND CITATIONS",
+                        "content": ""
+                    },
+                    {
+                        "title": "KEY QUOTATION TAGS  Tag                           Purpose",
+                        "content": "<q>              Short inline quotation\n<blockquote>     Long block quotation\n<cite>           Citation\/title of work\n<address>        Contact information"
+                    },
+                    {
+                        "title": "USING <Q> FOR SHORT\u200c",
+                        "content": "\u200cQUOTES  <p>He said: <q>HTML is amazing!<\/q><\/p>\nResult: He said: \"HTML is amazing!\"\n(Browser adds quotation marks automatically)"
+                    },
+                    {
+                        "title": "USING <BLOCKQUOTE>  <blockquote",
+                        "content": "cite=\"https:\/\/www.example.com\">\nThis is a longer quotation that gets\nindented\nand treated as a separate block of\ntext.\n<\/blockquote>"
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <p>Tim Berners-Lee said: <q>The Web does not just connect machines, it connects people.<\/q><\/p>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Quotations & Citations. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            },
+            {
+                "title": "HTML Comments Best Practices",
+                "type": "ppt",
+                "order": 6,
+                "ppt_slides": [
+                    {
+                        "title": "ACADEMYHTML COMMENTS  ADDING NOTES IN YOUR CODE",
+                        "content": ""
+                    },
+                    {
+                        "title": "COMMENT SYNTAX  <!-- Your comment goes here -->",
+                        "content": "Example:\n<!-- This is a comment that will NOT display -\n->\n<p>This text is visible<\/p>\n<!-- Comments help document your code -->"
+                    },
+                    {
+                        "title": "WHY USE COMMENTS? \u2705 Explain complex code sections",
+                        "content": "\u2705 Temporarily disable code (debugging)\n\u2705 Leave reminders for yourself or team\n\u2705 Organize large HTML files\n<!-- HEADER SECTION START -->\n<header>...<\/header>\n<!-- HEADER SECTION END -->\nNOT visible to users (only in source code)"
+                    },
+                    {
+                        "title": "COMMENT TIPS  Can be multi-line:",
+                        "content": "<!--\nThis is a long comment\nthat spans multiple lines\nfor better explanation\n-->\nCannot nest comments:\n<!-- Outer <!-- Inner --> --> (WRONG!)"
+                    },
+                    {
+                        "title": "MODULE 3 FORMATTING TAGS",
+                        "content": "Text Formatting Cheat Sheet:\nBOLD:      <b>text<\/b>  or\n<strong>text<\/strong>\nITALIC:    <i>text<\/i>  or  <em>text<\/em>\nSMALL:     <small>text<\/small>\nMARK:      <mark>text<\/mark>\nDELETED:   <del>text<\/del>\nINSERTED:  <ins>text<\/ins>\nSUBSCRIPT: H<sub>2<\/sub>O\nSUPERSCRIPT: m<sup>2<\/sup>"
+                    },
+                    {
+                        "title": "ACADEMY END OF THIS MODULE THANK YOU!",
+                        "content": ""
+                    }
+                ],
+                "code_snippet": "<!DOCTYPE html>\n<html>\n<body>\n  <!-- This is a clean comment in HTML -->\n  <h1>Visible Title<\/h1>\n<\/body>\n<\/html>",
+                "video_url": "https:\/\/www.youtube.com\/embed\/dQw4w9WgXcQ",
+                "video_explanation": "In this subtopic lesson, we cover HTML Comments Best Practices. Read the slides, review the code snippet, and click 'Open Sandbox Playground' to complete the challenge validator checklist."
+            }
+        ]
+    }
+]
